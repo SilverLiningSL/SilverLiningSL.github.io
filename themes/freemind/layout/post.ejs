@@ -1,0 +1,13 @@
+<% if (page.top == true) { %>
+  <i class="fa fa-thumb-tack"></i>
+  <font color=00FF7F>Pinned</font>
+
+<% } %>
+
+<% page.comment = true; %>
+
+<%- partial('_partial/article', {item: page, post: true}) %>
+
+
+  
+  
